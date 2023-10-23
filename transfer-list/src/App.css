@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  column-gap: 5rem;
+}
+
+.box {
+  border-radius: 10%;
+  height: 50dvh;
+  width: 20vw;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
